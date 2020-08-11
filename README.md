@@ -10,3 +10,8 @@
   1. K Means Clustering
   2. Hierarchical Clstering 
   3. DB Scan Clustering
+
+### 03 K Means Clustering (Theory)
+* How Algorithim works (Step Wise Calculation)
+* Pre-processing required for K Means
+* Determining optimal number of K - 1. Profiling Approach & 2. Elbow Method
