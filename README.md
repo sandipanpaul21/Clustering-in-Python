@@ -19,5 +19,4 @@
 
 ### 05 K Means Clustering (Python Code)
 * Preparing the Data
-* Elbow Method in Python
-* K Means Clustering in Python
+* Elbow Method and K Means Clustering in Python
