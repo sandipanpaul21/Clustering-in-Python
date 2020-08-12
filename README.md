@@ -6,7 +6,7 @@
 
 ### 02 Clustering (Theory)
 * Definition and Application of Clustering
-* 5 Types: 1.K Means 2.Hierarchical 3.DBScan 4.Gaussian Mixture & 5.T-SNE Clustering
+* 5 Types: 1.K Means 2.Hierarchical 3.DBScan 4.Gaussian Mixture & 5.T-SNE
 
 ### 03 Euclidean & Manhattan Distance (Theory)
 * Two points are near to each other, chances they are similar
@@ -30,6 +30,16 @@
 ### 07 Hierarchical Clustering (Theory)
 * Two Approaches: 1.Agglomerative(Botton-Up) & 2.Divisive(Top-Down)
 * Types of Linkages: 
-  1. Single Linkage - Nearest Neighbour
-  2. Complete Linkage - Farthest Neighbour
+  1. Single Linkage - Nearest Neighbour (Minimal intercluster dissimilarity)
+  2. Complete Linkage - Farthest Neighbour (Maximal intercluster dissimilarity)
   3. Average Linkage - Average Distance (Mean intercluster dissimilarity)
+* Steps in Agglomerative Hierarchical Clustering with single linkage
+* Determining optimal number of Cluster: Dendogram  
+
+### 08 Dendogram (Theory)
+* Hierarchical relationship between objects
+* Optimal number of Cluster for Hierarchical Clustering
+
+### 09 Hierarchical Clustering (Python Code)
+* Preparing the Data
+* Dendogram & Hierarchical Clustering in Python
