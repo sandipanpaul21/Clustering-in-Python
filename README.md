@@ -33,13 +33,25 @@
   1. Single Linkage - Nearest Neighbour (Minimal intercluster dissimilarity)
   2. Complete Linkage - Farthest Neighbour (Maximal intercluster dissimilarity)
   3. Average Linkage - Average Distance (Mean intercluster dissimilarity)
-* Steps in Agglomerative Hierarchical Clustering with single linkage
+* Steps in Agglomerative Hierarchical Clustering with Single Linkage
 * Determining optimal number of Cluster: Dendogram  
 
 ### 08 Dendogram (Theory)
 * Hierarchical relationship between objects
-* Optimal number of Cluster for Hierarchical Clustering
+* Optimal number of Clusters for Hierarchical Clustering
 
 ### 09 Hierarchical Clustering (Python Code)
 * Preparing the Data
 * Dendogram & Hierarchical Clustering in Python
+
+### 10 DBScan Clustering (Theory)
+* Density Based Clustering
+* Kmeans & Hierarchical good for compact & well seperated Data
+* Both are sensitive to Outliers & Noise
+* DBScan overcome all the issue & works well with Outliers
+* 2 important parameters - 
+  1. eps: Distance between 2 points is lower/equal to eps they are neighbours
+  2. MinPts: Minimum number of neighbours/data points with eps radius
+
+### 11 DBScan Clustering (Python Code)
+* Step Wise code for DBScan Clustering
