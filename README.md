@@ -6,7 +6,7 @@
 
 ### 02 Clustering (Theory)
 * Definition and Application of Clustering
-* 5 Types of Clustering: 1.K Means 2.Hierarchical 3.DBScan 4.Gaussian Mixture & 5.T-SNE Clustering
+* 5 Types: 1.K Means 2.Hierarchical 3.DBScan 4.Gaussian Mixture & 5.T-SNE Clustering
 
 ### 03 Euclidean & Manhattan Distance (Theory)
 * Two points are near to each other, chances they are similar
