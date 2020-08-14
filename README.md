@@ -80,6 +80,6 @@
 *  0: Means clusters are indifferent, or distance between clusters is not significant
 * -1: Means clusters are assigned in the wrong way
 
-### 16 Disadvantage & Choosing Right Cluster 
+### 16 Disadvantage & Choosing Right Cluster (Theory)
 * Disadvantage of each clustering techniques respectively 
 * Based on the data, which is the right clustering method
