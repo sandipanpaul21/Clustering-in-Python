@@ -81,5 +81,5 @@
 * -1: Means clusters are assigned in the wrong way
 
 ### 16 Disadvantage & Choosing Right Cluster 
-* Disadvantage of each clustering technique 
+* Disadvantage of each clustering techniques respectively 
 * Based on the data, which is the right clustering method
