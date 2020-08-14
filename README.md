@@ -26,6 +26,7 @@
 ### 06 K Means Clustering (Python Code)
 * Preparing the Data
 * Elbow Method and K Means Clustering in Python
+* Silhouette Score
 
 ### 07 Hierarchical Clustering (Theory)
 * Two Approaches: 1.Agglomerative(Botton-Up) & 2.Divisive(Top-Down)
@@ -43,6 +44,7 @@
 ### 09 Hierarchical Clustering (Python Code)
 * Preparing the Data
 * Dendogram & Hierarchical Clustering in Python
+* Silhouette Score
 
 ### 10 DBScan Clustering (Theory)
 * Density Based Clustering
@@ -55,3 +57,29 @@
 
 ### 11 DBScan Clustering (Python Code)
 * Step Wise code for DBScan Clustering
+* Silhouette Score
+
+### 12 GMM Clustering (Theory)
+* Weakness of K Means
+* Expectation Maximization(EM) method
+
+### 13 Gausian Mixture Model Clustering (Python Code)
+* Step Wise cofr for GMM Clustering
+* Silhouette Score
+
+### 14 Cluster Adjustment (Theory)
+* 2 Steps we normally do for Cluster Adjustement 
+  1. Quality of Clustering (Cardinality & Magnitude)
+  2. Performance of Similiarity Measure (Euclidean Distance)
+
+### 15 Silhouette Coefficient - Cluster Validation (Theory)
+* Clusters are well apart from each other as the silhouette score is closer to 1
+* It is a metric used to calculate the goodness of a clustering technique 
+* Its value ranges from -1 to 1.
+*  1: Means clusters are well apart from each other and clearly distinguished
+*  0: Means clusters are indifferent, or distance between clusters is not significant
+* -1: Means clusters are assigned in the wrong way
+
+### 16 Disadvantage & Choosing Right Cluster 
+* Disadvantage of each clustering technique 
+* Based on the data, which is the right clustering method
