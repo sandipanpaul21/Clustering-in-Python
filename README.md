@@ -90,3 +90,4 @@
 * When to use what
 
 ### 18 Interview Questions on Clustering
+* Commonly asked question on Clustering
