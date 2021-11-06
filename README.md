@@ -83,3 +83,10 @@
 ### 16 Disadvantage & Choosing Right Clustering Method (Theory)
 * Disadvantage of each clustering techniques respectively 
 * Based on the data, which is the right clustering method
+
+### 17 Clustering Revision
+* Short Description of Each Clustering Alogrithim
+* Advantage, Disadvantage
+* When to use what
+
+### 18 Interview Questions on Clustering
