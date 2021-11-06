@@ -24,9 +24,11 @@
 * 3 concepts: 1.Total Error, 2.Variance/Total Squared Error & 3.Within Cluster Sum of Square (WCSS)
 
 ### 06 K Means Clustering (Python Code)
-* Preparing the Data
-* Elbow Method and K Means Clustering in Python
-* Silhouette Score
+* Define number of clusters, take centroids and measure distance
+* Euclidean Distance : Measure distance between points
+* Number of Clusters defined by Elbow Method
+* Elbow Method : WCSS vs Number of Cluster
+* Silhouette Score : Goodness of Clustering
 
 ### 07 Hierarchical Clustering (Theory)
 * Two Approaches: 1.Agglomerative(Botton-Up) & 2.Divisive(Top-Down)
@@ -42,9 +44,15 @@
 * Optimal number of Clusters for Hierarchical Clustering
 
 ### 09 Hierarchical Clustering (Python Code)
-* Preparing the Data
-* Dendogram & Hierarchical Clustering in Python
-* Silhouette Score
+* Type of HC
+    1. Agglomerative : Bottom Up approach
+    2. Divisive : Top Down approach
+* Number of Clusters defined by Dendogram
+* Dendogram : Joining datapoints based on distance & creating clusters
+* Linkage : To calculate distance between two points of two clusters
+    1. Single linkage : Minimum Distance between two clusters
+    2. Complete linkage : Maximum Distance between two clusters
+    3. Average linkage : Average Distance between two clusters
 
 ### 10 DBScan Clustering (Theory)
 * Density Based Clustering
@@ -56,16 +64,21 @@
   2. MinPts: Minimum number of neighbours/data points with eps radius
 
 ### 11 DBScan Clustering (Python Code)
-* Step Wise code for DBScan Clustering
-* Silhouette Score
+* No need to give pre-define clusters
+* Distance metric is Euclidean Distance
+* Need to give 2 parameters
+    1. eps : Radius of the circle
+    2. min_samples : minimum data points to consider it as clusters
 
 ### 12 GMM Clustering (Theory)
 * Weakness of K Means
 * Expectation Maximization(EM) method
 
 ### 13 Gausian Mixture Model Clustering (Python Code)
-* Step Wise cofr for GMM Clustering
-* Silhouette Score
+* Probablistic Model
+* Uses Expectation-Minimization (EM) steps:
+    1. E Step : Probability of datapoint of each cluster
+    2. M Step : For each cluster,revise parameter based on proabability
 
 ### 14 Cluster Adjustment (Theory)
 * 2 Steps we normally do for Cluster Adjustement 
