@@ -104,3 +104,12 @@
 
 ### 18 Interview Questions on Clustering (Theory)
 * Commonly asked question on Clustering
+
+### 19 K Modes (Theory)
+* For Categorical variable clustering, use K Modes
+* It uses the dissimilarities(total mismatch) between data points
+* Lesser the dissimilarities, the more our data points are closer
+* It uses Mode for most value in the column
+
+### 20 K Modes (Code)
+* K Mode code in Python
