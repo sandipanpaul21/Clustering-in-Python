@@ -111,5 +111,5 @@
 * Lesser the dissimilarities, the more our data points are closer
 * It uses Mode for most value in the column
 
-### 20 K Modes (Code)
+### 20 K Modes (Python Code)
 * K Mode code in Python
